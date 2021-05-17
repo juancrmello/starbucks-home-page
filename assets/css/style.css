@@ -22,7 +22,6 @@ header .container {
     justify-content: space-between;
     height: 100px;
     align-items: center;
-    background-color: aquamarine;
 }
 
 .header-left img {
@@ -30,9 +29,50 @@ header .container {
     height: 64px;
 }
 
-.header--search input {
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header--search form {
+    display: flex;
+    width: 280px;
+    align-items: center;
+}
+
+.header--search form input {
     font-size: 1rem;
-    padding: 7px 10px;
-    border: 1px solid #999999;
+    padding: 8px 13px;
+    padding-right: 35px;
+    border: 1px solid #dcdbdb;
+    border-radius: 2px;
     outline: 0;
+    width: 100%;
+    max-width: 280px;
+}
+
+.header--search form input::placeholder {
+    color: #b5b5b5;
+}
+
+.header--search button {
+    border: 0;
+    background: transparent;
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.header--search button img {
+    width: 16px;
+    height: 16px;
+}
+
+.header--menu {
+    margin-left: 50px;
+}
+
+.header--menu img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
 }
