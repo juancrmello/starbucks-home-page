@@ -140,6 +140,8 @@ header .line {
 
 .area1--content {
     padding: 80px;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .area1--quote {
@@ -239,5 +241,25 @@ header .line {
 .area4--img1 {
     background: url('../imgs/bg3.jpg');
     background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.area5 {
+    background: url('../imgs/bg4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 80px;
+    text-align: center;
+}
+
+footer img {
+    width: 15px;
+    margin: 0 5px;
+}
